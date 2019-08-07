@@ -11,11 +11,10 @@ collections:
     folder: "src/pages/rooms"
     create: true
     description: "blah-blah-blah rooms"
-    identifier_field: name
     fields:
       - {
-          name: "name",
-          label: "NAME",
+          name: "title",
+          label: "TITLE",
           widget: "string",
           pattern:
             [".{10,}", "Must have at least 10 characters, hha-ha-ha-ha!"],
